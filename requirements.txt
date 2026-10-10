@@ -1,0 +1,35 @@
+# AIntern — Python Dependencies
+# Resolved with uv for Python 3.13, no conflicts
+
+# API & Web Framework
+fastapi==0.115.0
+uvicorn[standard]
+python-multipart==0.0.9
+
+# LLM & AI
+langchain==0.3.25
+langchain-groq==0.2.4
+langchain-community==0.3.25
+langchain-chroma>=0.2.0
+groq
+
+# Vector Store (uv resolves compatible version)
+chromadb
+
+# Database
+supabase==2.9.1
+
+# Data Validation
+pydantic==2.9.2
+pydantic-settings
+
+# Environment
+python-dotenv
+
+# Utilities
+httpx
+tenacity
+
+# Notebooks / Dev
+jupyter==1.1.1
+ipykernel==6.29.5
